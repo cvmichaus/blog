@@ -3,7 +3,9 @@
 @section('title', 'HAQ')
 
 @section('content_header')
-    <h1>HAQ</h1>
+
+<a class="btn btn-primary btn-sm float-right" href="{{route('admin.posts.create')}}">Nuevo Post</a>
+    <h1>Listado de Posts</h1>
 @stop
 
 @section('content')
